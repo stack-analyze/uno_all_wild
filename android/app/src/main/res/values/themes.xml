@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="ic_launcher_background">#090505</color>
+    
+    <style name="Theme.UnoAllWild" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash</item>
+        <item name="splashScreenIconSize">128dp</item>
+        <item name="windowSplashScreenAnimationDuration">5000</item>
+        <item name="postSplashScreenTheme">@style/Theme.UnoAllWild</item>
+    </style>
+</resources>
